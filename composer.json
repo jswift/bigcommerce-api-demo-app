@@ -1,0 +1,14 @@
+{
+    "name": "jarrod/bc-test-client",
+    "description": "A demonstration client for BigCommerce",
+    "type": "project",
+    "require": {
+        "aligent/bigcommerce-api-client": "^1.7",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jarrod\\BcTestClient\\": "src/"
+        }
+    }
+}
